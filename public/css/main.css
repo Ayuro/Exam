@@ -1,6 +1,6 @@
 body {
   align-items: center;
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -38,7 +38,8 @@ form {
   align-items: center;
 }
 
-label, input {
+label,
+input {
   font-size: 1.2rem;
   margin: 5px;
 }
