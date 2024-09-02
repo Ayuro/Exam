@@ -6,3 +6,6 @@
 
 # Config ESLint
 /eslint.config.js
+
+# Config jest
+/jest.config.js
