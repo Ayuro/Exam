@@ -1,5 +1,6 @@
 window.addEventListener('DOMContentLoaded',()=>{
   const pokeP=document.getElementById('pokeInfo')
+  const pokeAbility=document.getElementById('pokeAbility')
   const pokeDiv=document.getElementById('pokemon-info')
   const pokeAbilityBtn=document.getElementById('ability')
   const sendButton=document.getElementById('sendButton')
@@ -112,7 +113,7 @@ window.addEventListener('DOMContentLoaded',()=>{
    */
   const pokemonAbility=()=>{
     pokeAbilityBtn.addEventListener('click', fetchPokemonAbilities)
-    pokeDiv.appendChild(pokeAbility)
+    pokeDiv.appendChild(pokeAbility);
   }
   
   /**  

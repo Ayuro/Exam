@@ -3,3 +3,6 @@
 
 # Dossier vscode
 .vscode
+
+# Config ESLint
+/eslint.config.js
